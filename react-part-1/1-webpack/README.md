@@ -82,5 +82,13 @@ module.exports = {
   },
 };
 ```
+and finally make a `.babelrc` file and write the presets
+
+```json
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+
+```
 
 congratulations you have configured react with webpack from 0
